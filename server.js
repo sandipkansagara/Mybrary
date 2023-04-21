@@ -8,6 +8,7 @@ const indexRouter = require('./routes/index')
 const bodyParser = require('body-parser')
 const authorRouter = require('./routes/authors')
 const bookRouter = require('./routes/books')
+const path = require('path')
 
 app.set('view engine', 'ejs')
 app.set('views', __dirname + '/views')
